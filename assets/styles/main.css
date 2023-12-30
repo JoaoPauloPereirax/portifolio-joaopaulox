@@ -1,4 +1,13 @@
+/*STYLES EXTERNOS*/
 @import url("./cabecalho.css");
+@import url("./especialidades.css");
+
+/*VARIÁVEIS - CORES*/
+:root{
+       --azul: #0742af;
+       --verde: #0ce405 ;
+       --vermelho:#c90101;
+}
 
 *{
        margin: 0;
@@ -12,7 +21,16 @@ body{
        height: 100vh;   
 }
 
+.secont-title{
+       text-align: center;
+       font-weight: 900;
+       font-size: 3em;
+}
+
 .interface{
-       max-width: 1280px;
+       max-width: 980px;
        margin: 0 auto;
+       align-items: center;
+       justify-content: center;
+
 }
