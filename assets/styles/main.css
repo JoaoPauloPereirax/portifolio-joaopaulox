@@ -1,6 +1,7 @@
 /*STYLES EXTERNOS*/
-@import url("./cabecalho.css");
+@import url("./header.css");
 @import url("./especialidades.css");
+@import url("./footer.css");
 
 /*VARIÁVEIS - CORES*/
 :root{
@@ -16,10 +17,6 @@
        font-family: 'Poppins', sans-serif;
 }
 
-
-body{
-       height: 100vh;   
-}
 
 .secont-title{
        text-align: center;

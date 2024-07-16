@@ -1,0 +1,34 @@
+section.especialidades{
+       padding: 40px 4%;
+}
+
+.grid-container{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       align-items: center;
+
+}
+
+.card-specialty{
+       border: 4px solid var(--azul);
+       width: 20em;
+       height: 15em;
+       padding: 1em;
+       margin: 0.2em;
+       text-align: center;
+       border-radius: 15px;
+
+
+}
+
+.card-specialty:hover{
+       transform: scale(1.05);
+}
+
+.statusC{
+       color: var(--verde);
+}
+
+.statusA{
+       color: var(--vermelho);
+}
