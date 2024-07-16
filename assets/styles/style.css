@@ -1,0 +1,50 @@
+/*STYLES EXTERNOS*/
+@import url("./header.css");
+@import url("./especialidades.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+/*VARIÁVEIS - CORES*/
+:root{
+       --azul: #0742af;
+       --verde: #0ce405 ;
+       --vermelho:#c90101;
+}
+
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
+}
+
+header{
+       height: 20vh;
+}
+
+main{
+       height: 70vh; 
+}
+
+footer{
+       height: 10vh;
+}
+
+
+
+
+
+
+.secont-title{
+       text-align: center;
+       font-weight: 900;
+       font-size: 3em;
+}
+
+.interface{
+       max-width: 980px;
+       margin: 0 auto;
+       align-items: center;
+       justify-content: center;
+
+}

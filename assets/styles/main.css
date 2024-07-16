@@ -1,33 +1,8 @@
-/*STYLES EXTERNOS*/
-@import url("./header.css");
-@import url("./especialidades.css");
-@import url("./footer.css");
-
-/*VARIÁVEIS - CORES*/
-:root{
-       --azul: #0742af;
-       --verde: #0ce405 ;
-       --vermelho:#c90101;
+main{
+ display: flex;
+ justify-content: center;
 }
 
-*{
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-       font-family: 'Poppins', sans-serif;
-}
-
-
-.secont-title{
-       text-align: center;
-       font-weight: 900;
-       font-size: 3em;
-}
-
-.interface{
-       max-width: 980px;
-       margin: 0 auto;
-       align-items: center;
-       justify-content: center;
-
+main img{
+       height: 50vh;
 }
